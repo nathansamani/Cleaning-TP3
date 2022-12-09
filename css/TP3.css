@@ -1,5 +1,5 @@
 
-/* Style des body */
+/* Style des bodys */
 
 .body-home-page {
     display: block;
@@ -64,8 +64,95 @@
   .body-a-propos {
     background-color: #fff;
   }
+  /*Images */
+  
+  .image {
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+  }
+  
+  .imagemusee {
+    width: 500px;
+    height: 250px;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
+  }
+  
+  .image-2 {
+    position: absolute;
+    top: 0px;
+    height: auto;
+    max-height: 900px;
+  }
+
+  .imageapropos {
+    width: 500px;
+    height: 250px;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
+  }
+  
+  .imageboutique {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 50vh;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  
+  .imageboutiaue {
+    width: 500px;
+    height: 250px;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
+  }
+
+  .imagemusee {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: transparent;
+    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
+    background-position: 0px 0px;
+    background-size: auto;
+  }
+
+  .imageapropos {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+  }
+
+  .imageboutiaue {
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+
+
+
+
+
+
+
 
   /* Textes */
+
+  .heading-3 {
+    text-align: center;
+  }
 
   .text-block {
     color: #fff;
@@ -73,9 +160,103 @@
     line-height: 50px;
     text-align: left;
   }
+  .div-block-home-logo-text {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 50px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .text-block-2 {
+    margin-left: 5%;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text-block-3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .text-vivez-une-experience {
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .text-field {
+    border-radius: 10px;
+  }
+
+  .text-field-2 {
+    border-radius: 10px;
+  }
+
+  .textarea {
+    border-radius: 10px;
+  }
   
 
-/* Button */
+/* Buttons */
+
+  .button {
+    border-radius: 0px;
+    background-color: transparent;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .button {
+    padding-right: 0px;
+    padding-left: 0px;
+    color: #fff;
+  }
+
+  .button.w--current {
+    margin-right: 50px;
+  }
+  .button {
+    border-radius: 0px;
+    background-color: transparent;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .button.w--current {
+    margin-right: 50px;
+  }
+
+  .button-2 {
+    border-radius: 10px;
+  }
+
+  .button-present {
+    margin-right: 10px;
+  }
+  .button-present.w--current {
+    margin-right: 0px;
+    border-radius: 10px;
+  }
+  .button-futur {
+    padding-left: 10px;
+  }
+  
+  .button-futur.w--current {
+    padding-left: 15px;
+    border-radius: 10px;
+  }
+  
+  .bouton2 {
+    border-radius: 10px;
+    background-color: #000;
+
+  }
+/* Blocs */
 
   .block-de-bouton-epoque {
     position: absolute;
@@ -99,23 +280,7 @@
     align-items: center;
   }
   
-  .bouton-home-page {
-    position: fixed;
-    bottom: 50px;
-    background-color: transparent;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    font-weight: 800;
-    text-align: center;
-    text-transform: uppercase;
-    white-space: normal;
-    mix-blend-mode: multiply;
-  }
   
-  .bouton-home-page.w--current {
-    position: fixed;
-    bottom: 50px;
-  }
   
   .titre-choisir-une-epoque {
     font-family: Montserrat, sans-serif;
@@ -174,11 +339,7 @@
     background-color: #000;
   }
   
-  .text-block-2 {
-    margin-left: 5%;
-    font-size: 20px;
-    font-weight: 700;
-  }
+  
   
   .columns {
     display: -webkit-box;
@@ -216,19 +377,11 @@
     border-radius: 10px;
   }
   
-  .text-block-3 {
-    font-size: 20px;
-    font-weight: 700;
-  }
   
-  .button-present {
-    margin-right: 10px;
-  }
   
-  .button-present.w--current {
-    margin-right: 0px;
-    border-radius: 10px;
-  }
+  
+  
+  
   
   .bouton-pass {
     margin-left: 0px;
@@ -238,22 +391,9 @@
     border-radius: 10px;
   }
   
-  .button-futur {
-    padding-left: 10px;
-  }
   
-  .button-futur.w--current {
-    padding-left: 15px;
-    border-radius: 10px;
-  }
   
-  .text-vivez-une-experience {
-    font-family: Montserrat, sans-serif;
-    color: #fff;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-  }
+  
   
   .homepagesectionmusee {
     display: -webkit-box;
@@ -334,30 +474,9 @@
     font-weight: 700;
   }
   
-  .div-block-home-logo-text {
-    position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-left: 50px;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
   
-  .button {
-    border-radius: 0px;
-    background-color: transparent;
-    font-weight: 700;
-    text-align: center;
-    text-transform: uppercase;
-  }
   
-  .button.w--current {
-    margin-right: 50px;
-  }
+  
   
   .utility-page-wrap {
     display: -webkit-box;
@@ -427,48 +546,13 @@
     height: 50vh;
   }
   
-  .imagemusee {
-    width: 500px;
-    height: 250px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
-  }
+  
   
   .paragraph-3 {
     max-width: 250px;
   }
   
-  .imageapropos {
-    width: 500px;
-    height: 250px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
-  }
   
-  .imageboutique {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    height: 50vh;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-  }
-  
-  .imageboutiaue {
-    width: 500px;
-    height: 250px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
-  }
   
  
   
@@ -570,9 +654,7 @@
     position: relative;
   }
 
-  .heading-3 {
-    text-align: center;
-  }
+ 
   
   .apropos-de-nous-cases {
     display: -webkit-box;
@@ -713,18 +795,7 @@
     text-align: center;
   }
   
-  .image {
-    position: absolute;
-    top: 0px;
-    z-index: 10;
-  }
   
-  .image-2 {
-    position: absolute;
-    top: 0px;
-    height: auto;
-    max-height: 900px;
-  }
   
   @media screen and (min-width: 1920px) {
     .navbar {
@@ -740,33 +811,9 @@
       font-weight: 400;
     }
   
-    .button {
-      padding-right: 0px;
-      padding-left: 0px;
-      color: #fff;
-    }
+    
   
-    .imagemusee {
-      width: 700px;
-      height: 500px;
-      border-radius: 10px;
-      background-color: transparent;
-      background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-      background-position: 0px 0px;
-      background-size: auto;
-    }
-  
-    .imageapropos {
-      width: 700px;
-      height: 500px;
-      border-radius: 10px;
-    }
-  
-    .imageboutiaue {
-      width: 700px;
-      height: 500px;
-      border-radius: 10px;
-    }
+    
   
     .div-block-3 {
       background-color: #494949;
@@ -808,14 +855,7 @@
       height: 250px;
     }
   
-    .button-2 {
-      border-radius: 10px;
-    }
-  
-    .bouton2 {
-      border-radius: 10px;
-      background-color: #000;
-    }
+
   
     .bock-contact-blur {
       width: 1000px;
