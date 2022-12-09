@@ -74,6 +74,9 @@
     text-align: left;
   }
   
+
+/* Button */
+
   .block-de-bouton-epoque {
     position: absolute;
     bottom: 10%;
@@ -849,3 +852,7 @@
       padding-top: 50px;
     }
   }
+
+
+
+  /* Merge */
