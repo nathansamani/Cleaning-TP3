@@ -76,13 +76,10 @@
   }
   
   .imagemusee {
-    width: 500px;
-    height: 250px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
+    border-radius: 10px;
+
+
   }
-  
   .image-2 {
     position: absolute;
     top: 0px;
@@ -113,23 +110,9 @@
     align-items: center;
   }
   
-  .imageboutiaue {
-    width: 500px;
-    height: 250px;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
-  }
+  
 
-  .imagemusee {
-    width: 700px;
-    height: 500px;
-    border-radius: 10px;
-    background-color: transparent;
-    background-image: url('https://d3e54v103j8qbb.cloudfront.net/img/background-image.svg');
-    background-position: 0px 0px;
-    background-size: auto;
-  }
+  
 
   .imageapropos {
     width: 700px;
@@ -459,6 +442,8 @@
 
   .paragraph-3 {
     max-width: 250px;
+    color: #d6d6d6;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
 
@@ -710,7 +695,7 @@
   }
   
 
-/* U.I */ 
+/* UI */ 
 
   .navbar {
     display: -webkit-box;
