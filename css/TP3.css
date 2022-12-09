@@ -856,3 +856,72 @@
 
 
   /* Merge */
+  
+  .w-form-fail {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ffdede;
+  }
+
+  .w-form-done {
+    display: none;
+    padding: 20px;
+    text-align: center;
+    background-color: #dddddd;
+  }
+
+  .w-form {
+    margin: 0 0 15px;
+  }
+
+
+
+/* vide */
+  .columns-3 w-row {
+    
+}
+
+.w-col w-col-6 w-row {
+    
+}
+
+.sectionapvideo wf-section{
+    
+}
+
+.section-a-propos-de-nous wf-section{
+    
+}
+
+.columns-2 w-row{
+    
+}
+
+.section-a-propos-du-projet wf-section{
+    
+}
+
+.textbloclnal{
+    
+}
+
+.section-tecnologies-et-boutique wf-section{
+    
+}
+
+.bouton2 w-button{
+    
+}
+
+.text-field w-input{
+    
+}
+
+.text-field-2 w-input{
+    
+}
+
+.textarea w-input{
+
+}
